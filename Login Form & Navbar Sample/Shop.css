@@ -1,0 +1,240 @@
+.card1 {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 60px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: rgb(0, 0, 0);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  background-image: url(/Images/Gow2.png);
+  background-size: 110%;
+  background-position-y: 10%;
+  background-position-x: 80%;
+}
+.card2 {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 60px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: rgb(73, 73, 73);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  background-image: url(/Images/Halo.jpg);
+  left: -90%;
+  top:-360px;
+  background-size: 85%;
+  background-position-y: 10%;
+  background-position-x: 40%;
+  background-size: 110%;
+  
+}
+.card3 {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 60px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  background-image: url(/Images/Farcry.jpg);
+  right: -90%;
+  top:-750px;
+  background-size: 220%;
+  background-position-y: 50%;
+  background-position-x: 50%;
+}
+.card4 {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 60px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  background-image: url(/Images/NFS.jpg);
+  top:-750px;
+  background-size: 100%;
+  background-position-y: 50%;
+  background-position-x: 50%;
+}
+.card5 {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 60px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  background-image: url(/Images/Cod.jpg);
+  left: -90%;
+  top:-1100px;
+  background-size: 130%;
+  background-position-y: 50%;
+  background-position-x: 50%;
+}
+.card6 {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 60px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  background-image: url(/Images/DBZ.jpg);
+  right: -90%;
+  top:-1490px;
+  background-size: 110%;
+  background-position-y: 40%;
+  background-position-x: 50%;
+}
+.card-image {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
+.card-stats {
+  grid-area: stats; 
+}
+.card-image {
+  grid-area: image;
+  background: url("img1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: rgb(0, 0, 0);
+  font-size:13px;
+}
+.card-text p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background:linear-gradient(45deg,#000000e1,#ffffff65);
+}
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding:10px;
+}
+.card1:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card1 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:50px;
+}
+.card2:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card2 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:50px;
+}
+.card3:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card3 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:50px;
+}
+.card1 {
+background-repeat: no-repeat;
+box-shadow: 0 0 6px 2px rgb(255, 208, 0), 0 35px 25px -15px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+.card2 {
+background-repeat: no-repeat;
+box-shadow: 0 0 6px 2px rgb(255, 0, 0), 0 35px 25px -15px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+.card3 {
+background-repeat: no-repeat;
+box-shadow: 0 0 6px 2px rgb(60, 255, 0), 0 35px 25px -15px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+.card4:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card4 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:50px;
+}
+.card5:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card5 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:50px;
+}
+.card6:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card6 {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:50px;
+}
+.card4 {
+background-repeat: no-repeat;
+box-shadow: 0 0 6px 2px rgba(3, 112, 255, 0.75), 0 35px 25px -15px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+.card5 {
+background-repeat: no-repeat;
+box-shadow: 0 0 6px 2px rgb(0, 255, 213), 0 35px 25px -15px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+.card6 {
+background-repeat: no-repeat;
+box-shadow: 0 0 6px 2px rgb(255, 136, 0), 0 35px 25px -15px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+
+
+
+
+
